@@ -5,7 +5,7 @@ import { TorusWalletAdapter } from '@solana/wallet-adapter-torus';
 import { PublicKey } from '@solana/web3.js';
 import React, { FC, useMemo } from 'react';
 import { Outlet, useSearchParams } from 'react-router-dom';
-import { DEVNET_ENDPOINT } from '../../utils/constants';
+// import { DEVNET_ENDPOINT } from '../../utils/constants';
 import { ConfigProvider } from '../contexts/ConfigProvider';
 import { FullscreenProvider } from '../contexts/FullscreenProvider';
 import { PaymentProvider } from '../contexts/PaymentProvider';
