@@ -75,8 +75,11 @@ export const RootRoute: FC = () => {
                 ) : (
                     <div className={css.logo}>
                         <SolanaPayLogo width={240} height={88} />
+                        <br /><br />
+                        <p>by</p>
                         <SalmonLogo width={240} height={88} />
                     </div>
+
                 )}
             </FullscreenProvider>
         </ThemeProvider>
