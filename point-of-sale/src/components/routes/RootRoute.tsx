@@ -12,6 +12,7 @@ import { PaymentProvider } from '../contexts/PaymentProvider';
 import { ThemeProvider } from '../contexts/ThemeProvider';
 import { TransactionsProvider } from '../contexts/TransactionsProvider';
 import { SolanaPayLogo } from '../images/SolanaPayLogo';
+import { SalmonLogo } from '../images/SalmonLogo';
 import { SOLIcon } from '../images/SOLIcon';
 import * as css from './RootRoute.module.pcss';
 
@@ -74,6 +75,7 @@ export const RootRoute: FC = () => {
                 ) : (
                     <div className={css.logo}>
                         <SolanaPayLogo width={240} height={88} />
+                        <SalmonLogo width={240} height={88} />
                     </div>
                 )}
             </FullscreenProvider>

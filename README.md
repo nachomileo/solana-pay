@@ -1,4 +1,4 @@
-# Solana Pay para Pasiones Bar (pasionesbar.com)
+# Solana Pay + Salmon Wallet
 
 
 ![Solana Pay](solana-pay.png)
