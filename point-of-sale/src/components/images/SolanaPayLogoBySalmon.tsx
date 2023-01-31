@@ -1,6 +1,6 @@
 import React, { FC, SVGProps } from 'react';
 
-export const SolanaPayLogo: FC<SVGProps<SVGSVGElement>> = ({ width = 60, height = 22 }) => {
+export const SolanaPayLogoBySalmon: FC<SVGProps<SVGSVGElement>> = ({ width = 60, height = 22 }) => {
     return (
         <svg width="240" height="88" viewBox="0 0 240 88" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M180.485 28.538L171.682 9.30322H164.375L176.951 35.2565L176.725 36.038C176.41 37.0767 175.745 37.9738 174.843 38.5761C173.942 39.1784 172.86 39.4486 171.782 39.3403C170.52 39.3286 169.282 38.9947 168.186 38.3698L167.016 43.9286C168.704 44.6257 170.51 44.9894 172.336 44.9998C177.366 44.9998 180.409 43.1469 182.925 37.6892L196.243 9.30322H189.187L180.485 28.538Z" fill="black"/>
